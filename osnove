@@ -1,0 +1,29 @@
+U ovom poglavlju ce da prodjemo neke osnove kao sto su 
+dugme{<button></button>}
+paragraf{<p></p>}
+linkove{<a href></a>}
+
+
+---Kako napraviti dugme 
+dugme se poziva jednostavnim pozivom <button>
+a zatvara se pozivom </button>
+
+izmedju poziva <button></button>
+mozemo pisati sta zelimo da nam pise na dugmetu 
+<button>Klikni me </button>
+
+---paragraf 
+paragraf je nesto sto sluzi da napisemo kao neki opis na nasem sajtu ili obavestenje 
+poziv za to je jednostavno slovo P <p></p>
+
+Primer 
+<p>Cao ja zelim da naucim html</p>
+
+---link 
+link nam sluzi da stavim link odredjenog sajta i klikom na to da nas odvede 
+poziv za tu funkciju je sledeci <a href></a>
+
+Kada napisemo <a href mi u nastavku dodajemo znak = i duple navodnike ""
+onda bi to izgledalo ovako <a href="ovde stavim link koji zelim">ovo je link<a/>
+Mesto gde pise ovo je link moze pisati bilo sta i taj text oznacava nas link na koji korisnik klikne
+
