@@ -51,6 +51,88 @@ U ovom slucaju hajde da probamo da napravimo dugme za jutjub koje predstavlja su
     
   </head>
   <body>
-   <button
+   <button>Subscribe</button>
   </body>
 </html>
+
+u sekciju head ubacimo style
+
+<style> u ovom delu krecemo sa uredjivanjem ali prvo mora da pozovemo neku klasu </style>
+
+clasu pozivamo na sledeci nacin
+
+
+--------------------------------
+
+kada napisemo <button #u nastavku dodamo funkciju class i nazovemo kako zelimo naziv joj dajemo tako sto kada otkucamo class="Neko ime za klasu u ovom primeru ce da se zove gumb"
+
+
+znaci pisemo sledece
+<button class="gumb">Subscribe</button>
+
+sada mozemo da pozivamo style i da pocnemo sa css 
+
+--------------------------------------
+
+<style>
+#pozivanjem klase radimo tako sto prvo stavimo tacku(.)pa napisemo naziv klase koju pozivamo
+.gumb{
+#u ovim zagradama pisemo sve sto zelimo da uredjujemo kao npr visinu sirinu boju......
+#pozadina je kao i na engleskom background
+background-color: red;
+#ovim dobijamo da nam dugme bude crveno ali sada je u pitanju i da nam slova budu bela za odredjivanje slova pise se funkcija color
+color: white;
+}
+sada smo dobili nesto sto je slicno dugmetu koje zelimo ali treba nam da bude malo izobliceno na krajevima i da nema border na njoj
+#Kako bi napravili malo izoblicenje na ivicama koristimo border-radius 
+#Kako bi uklonili border iza pisemo border:none;
+
+.gumb{
+background-color: red;
+color: white;
+ border: none;
+border-radius: 5px;
+}
+
+
+Vise lici nego malopre ostalo je jos da se doda visina i sirina kako bi izgledalo identicno
+
+#Visina i sirina se rade preko heigt i width 
+
+.gumb{
+background-color: red;
+color: white;
+ border: none;
+border-radius: 5px;
+height: 25px;
+ width: 100px;
+}
+
+Ovime dobijamo dugme koje lici na subscribe
+
+kada sve spojimo nas kod treba da izgleda ovako
+
+--------------------------------------------------
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .gumb{
+            background-color: red;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            height: 25px;
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+<button class="gumb">Subscribe</button>
+</body>
+</html>
+--------------------------------------------------------
+U CSS IMA JOS MNOGO FUNKCIJA KOJE TREBA POKRITI TO JE BITI U SLEDECIM PREDAVANJIMA
+
+
+
