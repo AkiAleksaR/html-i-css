@@ -1,0 +1,44 @@
+# 📘 HTML & CSS - Vodič za početnike
+
+Dobrodošao u vodič kroz HTML i CSS! Ova mini-knjiga pomoći će ti da od osnova napraviš svoju prvu web stranicu.
+
+---
+ 
+## 📚 Sadržaj
+
+1. [Uvod](#uvod)
+2. [Osnove HTML-a](#osnove-html-a)
+   - [Struktura HTML dokumenta](#struktura-html-dokumenta)
+   - [Elementi i tagovi](#elementi-i-tagovi)
+   - [Naslovi, pasusi i liste](#naslovi-pasusi-i-liste)
+   - [Linkovi i slike](#linkovi-i-slike)
+3. [Osnove CSS-a](#osnove-css-a)
+   - [Dodavanje CSS-a HTML-u](#dodavanje-css-a-html-u)
+   - [Selektori i klase](#selektori-i-klase)
+   - [Boje, margine i padding](#boje-margine-i-padding)
+4. [Mini Projekat](#mini-projekat)
+   - [Izrada jednostavne web stranice](#izrada-jednostavne-web-stranice)
+5. [Završne misli](#završne-misli)
+
+---
+
+## 🧠 Uvod
+
+U ovom vodiču naučićeš kako da koristiš **HTML** za strukturu, a **CSS** za stilizaciju tvoje stranice. Nema potrebe da znaš programiranje – samo želju da naučiš nešto novo!
+
+---
+
+## 📄 Osnove HTML-a
+
+### Struktura HTML dokumenta
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Moja Prva Stranica</title>
+  </head>
+  <body>
+    <h1>Zdravo, svet!</h1>
+  </body>
+</html>
