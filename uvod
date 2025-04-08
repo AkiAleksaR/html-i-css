@@ -30,6 +30,92 @@ U ovom vodiču naučićeš kako da koristiš **HTML** za strukturu, a **CSS** za
 
 ## 📄 Osnove HTML-a
 
+💻 Desktop aplikacije (offline kodiranje):
+1. Visual Studio Code (VS Code)
+✅ Najpopularniji alat za kodiranje
+
+✅ Ima prečice, boje, automatsko zatvaranje tagova
+
+✅ Možeš instalirati ekstenzije za HTML/CSS/Live Server
+
+💡 Preporučujem ovo ako radiš lokalno!
+
+📦 Instaliraj i ekstenziju: Live Server (prikazuje odmah u browseru kad sačuvaš fajl)
+
+2. Sublime Text
+Brz i lagan editor
+
+Ima podršku za HTML/CSS
+
+Nema toliko funkcija kao VS Code, ali je minimalistički
+
+3. Brackets
+Fokusiran baš na web dizajn (HTML, CSS, JS)
+
+Ima live preview u Chrome-u
+
+🌐 Online alati (kodiraš odmah u browseru):
+1. CodePen
+Pisanje HTML, CSS i JS direktno u browseru
+
+Vidljivo odmah kako izgleda
+
+Možeš lako podeliti link
+
+2. JSFiddle
+Slično kao CodePen
+
+Super za brze testove i deljenje
+
+3. Replit
+Online IDE za sve jezike, uključujući HTML/CSS
+
+Možeš napraviti ceo projekat online
+
+Možeš čak i deploy-ovati
+
+4. GitHub Codespaces
+Ako imaš GitHub nalog, možeš da kodiraš direktno iz browsera u svom repo-u
+
+Radi kao Visual Studio Code u browseru
+
+Aktiviraš klikom na “Code > Open with Codespaces”
+
+🧠 Preporuka:
+Ako tek počinješ:
+
+🔥 VS Code + Live Server (za lokalni rad)
+
+🌐 CodePen (za brzo učenje i testiranje)
+
+
+🌩️ WebStorm (by JetBrains)
+✅ IDE posebno pravljen za web razvoj:
+
+HTML, CSS, JS, TypeScript, React, Angular, itd.
+
+Ima automatsko kompletiranje koda, live preview, lintovanje (provera grešaka)
+
+Sve radi glatko, moćno, profi
+
+💡 Odličan ako planiraš da radiš ozbiljnije sa frontendom.
+
+🐘 PHPStorm (by JetBrains)
+✅ Napravljen za PHP + Web:
+
+Pored HTML/CSS/JS ima i podršku za PHP, MySQL, Laravel itd.
+
+Isto kao WebStorm, ali dodatno ima sve što treba za backend
+
+Idealno ako praviš sajtove koji imaju server (PHP kod)
+
+💡 Ako koristiš PHP (npr. kontakt forme, dinamičke stranice), ovo je pun pogodak.
+
+📝 Zaključak:
+Alat	HTML/CSS podrška	|PHP podrška|	Live Preview	|Težina|	Preporuka za početnike
+VS Code	✅✅✅|	⚠️ (uz plugin)	|✅ (Live Server)|	🟢 Lagan|	✅ DA
+WebStorm	✅✅✅	|❌|	✅	|🔵 Srednje	|✔️
+PHPStorm	✅✅✅|	✅✅✅|	✅|	🔴 Teži	⚠️ (ako ti ne treba PHP odmah)
 ### Struktura HTML dokumenta
 
 ```html
