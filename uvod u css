@@ -1,0 +1,56 @@
+u ovom delu cemo razmatrati sta je css i kako da ga primenimo u nasem kodu
+
+🧾 Šta je CSS?
+CSS (engl. Cascading Style Sheets) je jezik za stilizovanje web stranica.
+On određuje kako HTML elementi treba da izgledaju na ekranu, štampi ili drugim medijima.
+
+🔹 Ukratko:
+HTML daje strukturu stranici
+
+CSS daje izgled i stil (boje, veličine, raspored, fontovi, margine, itd.)
+
+🎨 Šta CSS može da radi?
+✅ Menja boje teksta i pozadine
+✅ Podesi fontove i veličinu slova
+✅ Postavi margine, razmake i okvire
+✅ Pravi raspored elemenata (layout)
+✅ Dodaje animacije i prelaze
+✅ Stilizuje dugmad, navigaciju, forme...
+
+🧠 CSS skraćenica:
+Cascading – “Kaskadno”, znači da se stilovi primenjuju po prioritetu (najbliži elementu ima prednost)
+
+Style – Stil
+
+Sheets – Listovi, jer se pravila pišu kao liste instrukcija
+
+
+
+Njega primenjujemo tako sto u u formi gde je html 
+<html>
+  <head>
+    #mi u head ubacim nesto sto se zove stil ili ti <style></style>
+u objectu pisemo sve sto zelimo da menjamo za konkretnu stvar
+  </head>
+  <body>
+   
+  </body>
+</html>
+
+
+
+------Kako da pozovemo nesto sto zelimo da menjamo 
+U ovom slucaju hajde da probamo da napravimo dugme za jutjub koje predstavlja subscribe
+
+
+1. korak napisemo uvodni deo za html i u object body pozovemo funkciju za dugme
+
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+   <button
+  </body>
+</html>
