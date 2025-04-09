@@ -1,0 +1,9 @@
+Centrirajte paragraf unutar div elementa koristeći text-align.
+
+Centrirajte sliku koristeći margin: auto i display: block.
+
+Napravite div koji je centriran i sadrži dugme centrirano unutar njega koristeći flexbox.
+
+Eksperimentišite sa padding i margin vrednostima da vidite kako se elementi pomeraju.
+
+Kombinujte text-align, margin, padding i flexbox u jednoj vežbi za maksimalno razumevanje.
