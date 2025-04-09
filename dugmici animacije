@@ -1,0 +1,95 @@
+✨ Stilizovanje dugmadi sa :hover, box-shadow i transition
+🔹 1. Šta je :hover?
+:hover je pseudo-klasa u CSS-u koja omogućava da se stil promeni kada korisnik pređe mišem preko elementa, najčešće dugmeta.
+
+  --------------------
+
+  button:hover {
+  background-color: blue;    -------------------------- ➡️ Kada korisnik pređe mišem preko dugmeta, ono menja boju u plavu.
+  color: white;
+}
+
+------------------------
+
+  🔹 2. Šta je box-shadow?
+
+  box-shadow dodaje senku oko elementa. Sintaksa izgleda ovako:
+
+box-shadow: offset-x offset-y blur-radius color;
+
+📌 Primer:
+
+button {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);---------------➡️ To znači da senka ide 4px dole i 8px se širi, u sivoj boji (0.3 je providnost).
+  
+}
+
+🔹 3. Šta je transition?
+transition pravi glatku animaciju između promena. Koristi se da efekti (kao što je hover promena) ne budu nagli, već prijatni za oko.
+
+📌 Primer:
+button {
+  background-color: lightblue;
+  transition: background-color 0.3s ease;
+}                                        -------------------------➡️ Dugme će nežno promeniti boju u toku 0.3 sekunde kada korisnik pređe mišem.
+
+button:hover {
+  background-color: dodgerblue;
+}
+
+
+✅ Kompletan primer:
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .dugme {
+      padding: 15px 30px;
+      font-size: 18px;
+      background-color: lightblue;
+      color: black;
+      border: none;
+      cursor: pointer;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      transition: background-color 0.3s ease, transform 0.1s ease;
+    }
+
+    .dugme:hover {
+      background-color: dodgerblue;
+      color: white;
+    }
+
+    .dugme:active {
+      transform: translateY(2px); /* simulira 3D klik */
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    }
+  </style>
+</head>
+<body>
+  <button class="dugme">Klikni me</button>
+</body>
+</html>
+
+
+    🧠 Ukratko:
+:hover = reaguje na prelazak miša
+
+box-shadow = pravi senku za dubinu i 3D efekat
+
+transition = pravi animaciju (glatke promene)
+
+:active = kada se dugme klikne (može simulirati fizički klik)
+
+
+    
+
+
+
+
+
+
+
+
