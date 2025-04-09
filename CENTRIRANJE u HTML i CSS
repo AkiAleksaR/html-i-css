@@ -1,0 +1,95 @@
+🧠 Celo poglavlje: CENTRIRANJE u HTML i CSS
+
+U CSS-u postoji više načina da se elementi poravnaju ili centriraju — tekst, dugmad, slike ili čitavi blokovi. Pravilno korišćenje margin, padding, text-align, i flexbox svojstava omogućava da vaši elementi izgledaju tačno onako kako želite.
+
+🟩 1. text-align – Poravnanje TEKSTA
+Svojstvo text-align se koristi isključivo za poravnanje teksta unutar elementa (kao što su <p>, <h1>, <div> koji sadrži tekst).
+
+Najčešće vrednosti:
+left – poravnanje levo (podrazumevano)
+
+right – poravnanje desno
+
+center – centriranje teksta
+
+justify – razvučen tekst (kao u novinama)
+
+Primer:
+<div class="tekst-box">
+  <p>Ovo je neki paragraf koji ćemo centrirati.</p>-----------------------------------------------✅ Tekst će biti poravnat tačno u sredinu kontejnera.
+</div>
+.tekst-box {
+  text-align: center;
+}
+
+
+🟦 2. margin – Spoljašnji razmak OKO elementa
+margin se koristi da se doda razmak između elemenata (kao što su dugmad, sekcije, slike itd).
+
+Najvažnije:
+margin: auto se često koristi za centriranje bloka horizontalno.
+
+Možeš zadati vrednosti: margin-top, margin-right, margin-bottom, margin-left.
+
+Primer:
+.blok {
+  width: 300px;
+  margin: 0 auto;
+}
+✅ Element širine 300px će biti centriran horizontalno na sredinu stranice ili roditeljskog elementa.
+
+🟨 3. padding – Unutrašnji razmak UNUTAR elementa
+padding dodaje prostor unutar elementa, između ivice i sadržaja. Koristan je za estetiku i preglednost.
+
+Primer:
+.kartica {
+  background-color: lightblue;
+  padding: 20px;
+}
+✅ Sadržaj u kartici (tekst, dugmad...) neće biti nalepljen uz ivice, već će imati "vazduha".
+
+🟥 4. CENTRIRANJE BLOKA koristeći flexbox
+Jedan od najmoćnijih i najmodernijih načina za centriranje svega jeste flexbox.
+
+Primer: centriranje dugmeta po sredini
+
+<div class="kontejner">
+  <button class="dugme">Klikni me</button>
+</div>
+
+
+.kontejner {
+  display: flex;
+  justify-content: center;  /* centrira horizontalno */
+  align-items: center;      /* centrira vertikalno */
+  height: 100vh;            /* 100% visine ekrana */
+}
+
+✅ Sada je dugme centrirano i po širini i po visini.
+
+
+🟣 BONUS: Kombinacija text-align, margin i padding
+Možeš kombinovati više tehnika za savršen rezultat.
+
+
+.dugme {
+  padding: 10px 20px;
+  background-color: teal;
+  color: white;
+  margin: 20px auto;
+  display: block;
+}
+
+
+✅ Ovo dugme:
+
+Ima unutrašnji razmak (padding)
+
+Ima spoljašnji razmak (margin)
+
+margin: auto i display: block omogućavaju centriranje dugmeta
+
+
+
+
+
